@@ -116,3 +116,6 @@ adlb_step7 %>%
   filter(ANL01FL == "Y") %>%
   select(USUBJID, PARAMCD, AVISIT, ADT, AVAL, ANL01FL) %>%
   head()
+
+renv::snapshot()
+renv::status()

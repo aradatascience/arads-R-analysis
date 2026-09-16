@@ -80,7 +80,8 @@ adsl_step4 |>
   select(USUBJID, AGE, AGEGR1, TRTSDT, TRTEDT, TRTDURD, SAFFL, DCSREAS) |> 
   head(10)
 
-
+renv::snapshot()
+renv::status()
   
 
 
